@@ -200,7 +200,7 @@ a:hover {
     justify-content: center;
     min-height: 100vh;
     padding-left: 2rem;
-    background: linear-gradient(45deg, black, transparent);
+    background: linear-gradient(45deg, black, transparent, transparent);
 }
 
 video, .bg {  
@@ -258,12 +258,13 @@ video, .bg {
     display:block;
 }
 
-.title {
+.main {
     padding: 2rem;
 }
 
 .footer {
-    margin-top: 6rem;
+    margin-top: 4rem;
+    padding: 2rem;
 }
 
 .nav {
@@ -274,7 +275,7 @@ video, .bg {
   elements responsiveness
 ------------------ */
 
-@media (max-width: 600px) {  
+@media (max-width: 600px) or (max-height: 900px) {  
     .content {
         justify-content: end;
     }
@@ -292,12 +293,12 @@ video, .bg {
         width: 13rem;
         height: 13rem;
     }
-    .title {
+    .main {
         padding: 1rem;
     }
     .footer {
-        margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin: 0;
+        padding: 1rem 0 2rem 0;
     }
     .summary p {
         line-height:1.15;
