@@ -223,9 +223,9 @@ video, .bg {
 }
 
 .logo {
-    margin-bottom: 2rem;
 }
 .logo h1 {
+    display: none;
     font-size: 7rem;
     border-bottom: white 1px solid;
     width: fit-content;
@@ -237,8 +237,8 @@ video, .bg {
     margin-left: 0;
 }
 .logo img {
-    width: 20rem;
-    height: 20rem;
+    width: 24rem;
+    height: 24rem;
 }
 
 .summary {
@@ -320,8 +320,8 @@ social.tiktok {
         font-size: 4rem;
     }
     .logo img {
-        width: 13rem;
-        height: 13rem;
+        width: 15rem;
+        height: 15rem;
     }
     .main {
         padding: 1rem;
