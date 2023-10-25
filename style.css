@@ -271,14 +271,44 @@ video, .bg {
     margin-top: 2rem;
 }
 
+.contact {
+    padding: 0;
+}
+
+.contact > * {
+    padding: 1.3rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 2rem;
+}
+
+.social {
+    width: 5rem;
+    opacity: 0.5;
+    margin: 1rem;
+}
+
+.social:hover, .social:focus, .social:active, .social:target {
+    opacity: 1;
+}
+
+social.tiktok {
+    margin-left: 1.5rem;
+}
+
+.social.twitter {
+    padding: 0.8rem;
+}
+
 /* ------------------
   elements responsiveness
 ------------------ */
 
-@media (max-width: 600px) or (max-height: 900px) {  
-    .content {
-        justify-content: end;
-    }
+@media (max-width: 600px) or (max-height: 900px) {
     .header {
         width: 20rem;
         padding: 1rem;
@@ -308,5 +338,8 @@ video, .bg {
     }
     .summary-desktop {
         display:none;
+    }
+    .socials {
+        margin-top: 1rem;
     }
 }
