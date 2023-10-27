@@ -289,15 +289,15 @@ video, .bg {
 .social {
     width: 5rem;
     opacity: 0.5;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .social:hover, .social:focus, .social:active, .social:target {
     opacity: 1;
 }
 
-social.tiktok {
-    margin-left: 1.5rem;
+.social.instagram {
+    padding: 0.5rem;
 }
 
 .social.twitter {
