@@ -304,7 +304,7 @@ video, .bg {
     opacity: 1;
 }
 
-.social.youtube {
+.social.discord, .social.youtube {
     margin-left: 1rem;
 }
 
@@ -385,7 +385,7 @@ video, .bg {
         width: 3.5rem;
         opacity: 1;
     }
-    .social.youtube {
+    .social.discord {
         margin-left: 0rem;
     }
     .social.fortnite {
